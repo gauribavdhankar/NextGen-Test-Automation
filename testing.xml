@@ -1,8 +1,10 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="Suite">
-    <test name="Test">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium Automation Suite" parallel="false">
+    <test name="Google Search Test">
         <classes>
-            <class name="com.testautomation.tests.GoogleSearchTest"/>
+            <class name="com.testautomation.tests.GoogleSearchTest" />
         </classes>
     </test>
 </suite>
