@@ -9,11 +9,12 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelReader {
 
-    public static Object[][] getData(String filePath, String sheetName) {
+    public static Object[][] getData(String sheetName) {
+    	String filepath = System.getProperty("user.dir") + "/src/test/resources/searchdata.xlsx";
         Object[][] data = null;
 
         try {
-            FileInputStream fis = new FileInputStream(new File(filePath));
+            FileInputStream fis = new FileInputStream(new File(filepath));
             Workbook workbook = new XSSFWorkbook(fis);
             Sheet sheet = workbook.getSheet(sheetName);
 

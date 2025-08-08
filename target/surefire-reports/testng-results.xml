@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-08T15:32:37 IST" name="Surefire suite" finished-at="2025-08-08T15:32:40 IST" duration-ms="3280">
+  <suite started-at="2025-08-08T15:57:31 IST" name="Surefire suite" finished-at="2025-08-08T15:57:35 IST" duration-ms="3483">
     <groups>
     </groups>
-    <test started-at="2025-08-08T15:32:37 IST" name="Surefire test" finished-at="2025-08-08T15:32:40 IST" duration-ms="3280">
+    <test started-at="2025-08-08T15:57:31 IST" name="Surefire test" finished-at="2025-08-08T15:57:35 IST" duration-ms="3483">
       <class name="com.testautomation.tests.BaseTest">
-        <test-method is-config="true" signature="setUpExtent()[pri:0, instance:com.testautomation.tests.BaseTest@4a22f9e2]" started-at="2025-08-08T15:32:37 IST" name="setUpExtent" finished-at="2025-08-08T15:32:37 IST" duration-ms="202" status="PASS">
+        <test-method is-config="true" signature="setUpExtent()[pri:0, instance:com.testautomation.tests.BaseTest@4a22f9e2]" started-at="2025-08-08T15:57:31 IST" name="setUpExtent" finished-at="2025-08-08T15:57:31 IST" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpExtent -->
-        <test-method is-config="true" signature="tearDownExtent()[pri:0, instance:com.testautomation.tests.BaseTest@4a22f9e2]" started-at="2025-08-08T15:32:40 IST" name="tearDownExtent" finished-at="2025-08-08T15:32:41 IST" duration-ms="288" status="PASS">
+        <test-method is-config="true" signature="tearDownExtent()[pri:0, instance:com.testautomation.tests.BaseTest@4a22f9e2]" started-at="2025-08-08T15:57:35 IST" name="tearDownExtent" finished-at="2025-08-08T15:57:35 IST" duration-ms="261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownExtent -->
       </class> <!-- com.testautomation.tests.BaseTest -->
       <class name="com.testautomation.tests.GoogleSearchTest">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.testautomation.tests.GoogleSearchTest@34b7ac2f]" started-at="2025-08-08T15:32:37 IST" name="setUp" finished-at="2025-08-08T15:32:39 IST" duration-ms="1871" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.testautomation.tests.GoogleSearchTest@34b7ac2f]" started-at="2025-08-08T15:57:31 IST" name="setUp" finished-at="2025-08-08T15:57:34 IST" duration-ms="2252" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,11 +28,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchGoogle()[pri:0, instance:com.testautomation.tests.GoogleSearchTest@34b7ac2f]" started-at="2025-08-08T15:32:39 IST" name="searchGoogle" finished-at="2025-08-08T15:32:40 IST" duration-ms="1156" status="PASS">
+        <test-method signature="searchGoogle()[pri:0, instance:com.testautomation.tests.GoogleSearchTest@34b7ac2f]" started-at="2025-08-08T15:57:34 IST" name="searchGoogle" finished-at="2025-08-08T15:57:35 IST" duration-ms="959" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchGoogle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testautomation.tests.GoogleSearchTest@34b7ac2f]" started-at="2025-08-08T15:32:40 IST" name="tearDown" finished-at="2025-08-08T15:32:40 IST" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testautomation.tests.GoogleSearchTest@34b7ac2f]" started-at="2025-08-08T15:57:35 IST" name="tearDown" finished-at="2025-08-08T15:57:35 IST" duration-ms="241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
